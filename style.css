@@ -253,6 +253,7 @@ footer{
        .photo:hover{
         transform: scale(1.2);
         transition: transform 4s ease-in-out;
+       }
        /*----------------------
         Container Complite  
         ----------------------*/
@@ -290,7 +291,31 @@ footer{
     Complite Mobail Devicss  
     -------------------------*/
 
-   /*------------------
-    Tablet Devices  
-    ------------------*/
-   
+   /*------------------------
+       Tablet Devices Start 
+    ------------------------*/
+    @media only screen and (min-width:600px) and (max-width:1100px){
+        .headers-2{
+            display: none;
+        }
+        .section-photo img{
+            width: 405px;
+            height: 378px;
+        }
+        .mothar-container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 30px;
+            position: relative;
+        }
+        /*----------------------------
+          Mothar-container complite 
+         ----------------------------*/
+         .container-2{
+            display: block;
+        }
+
+    }
+    /*-------------------
+    Tablet Complite 
+    ---------------------*/
