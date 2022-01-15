@@ -107,6 +107,7 @@ nav{
    .container-2{
        display: flex;
        justify-content: center;
+       margin-bottom: 10%;
    }
    .section-title{
     text-align: center;
@@ -115,6 +116,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
+    position: relative;
 }
 .blogs{
     background: #FFFFFF;
@@ -146,14 +148,28 @@ nav{
     float: right;
 }
 .end-section{
-    position: relative;
+   position: relative;
+   top: -95px;
 }
 .see-battun{
-    position: absolute;
-    top: 40px;
+    position:absolute;
     left: 83%;
+    
 }
 /*-------------------------
  Section-2 Complite  
  -------------------------*/
-   
+ .container-2{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .video{
+     width: 50%px;
+     border-radius: 7px;
+     margin: 0 5%;
+ }
+.video.info{
+    width: 50%;
+    height: 224px;
+    margin: 5%;
+}   
