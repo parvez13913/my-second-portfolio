@@ -140,6 +140,19 @@ nav{
     color: wheat;
     font-size: 14px;
 }
+.see-battun a{
+    text-decoration: none;
+    color: #E02C6D;
+    float: right;
+}
+.end-section{
+    position: relative;
+}
+.see-battun{
+    position: absolute;
+    top: 40px;
+    left: 83%;
+}
 /*-------------------------
  Section-2 Complite  
  -------------------------*/
